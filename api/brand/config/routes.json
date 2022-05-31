@@ -1,0 +1,116 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shop/brand",
+      "handler": "brand.brand",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shop/brand/:bname",
+      "handler": "brand.brandpage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiBrands",
+      "handler": "brand.apiPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiBrands/add",
+      "handler": "brand.apiAddPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiBrands/add",
+      "handler": "brand.apiAdd",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiBrands/edit/:id",
+      "handler": "brand.apiEditPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiBrands/update",
+      "handler": "brand.apiUpdate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiBrands/delete/:id",
+      "handler": "brand.apiDelete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/brands",
+      "handler": "brand.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/brands/count",
+      "handler": "brand.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/brands/:id",
+      "handler": "brand.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/brands",
+      "handler": "brand.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/brands/:id",
+      "handler": "brand.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/brands/:id",
+      "handler": "brand.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

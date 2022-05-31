@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "model": "category",
+      "via": "products"
+    },
+    "brand": {
+      "model": "brand",
+      "via": "products"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "remote_url": {
+      "type": "string"
+    },
+    "local_url": {
+      "type": "string"
+    },
+    "orders": {
+      "via": "product",
+      "collection": "order"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+[
+    {
+        "id":1,
+        "name":"Taipei City",
+        "population":2646000
+    },
+    {
+        "id":2,
+        "name":"New Taipei City",
+        "population":4015000
+    },
+    {
+        "id":3,
+        "name":"Keelung City",
+        "population":371900
+    },
+    {
+        "id":4,
+        "name":"Taoyuan City",
+        "population":2245000
+    },
+    {
+        "id":5,
+        "name":"Hsinchu City",
+        "population":448200
+    },
+    {
+        "id":6,
+        "name":"Hsinchu County",
+        "population":563100
+    },
+    {
+        "id":7,
+        "name":"Miaoli County",
+        "population":567100
+    },
+    {
+        "id":8,
+        "name":"Taichung City",
+        "population":2817000
+    },
+    {
+        "id":9,
+        "name":"Changhua County",
+        "population":1289000
+    },
+    {
+        "id":10,
+        "name":"Nantou County",
+        "population":514300
+    },
+    {
+        "id":11,
+        "name":"Yunlin County",
+        "population":682100
+    },
+    {
+        "id":12,
+        "name":"Chiayi City",
+        "population":270300
+    },
+    {
+        "id":13,
+        "name":"Chiayi County",
+        "population":524800
+    },
+    {
+        "id":14,
+        "name":"Tainan City",
+        "population":1881000
+    },
+    {
+        "id":15,
+        "name":"Kaohsiung City",
+        "population":2773000
+    },
+    {
+        "id":16,
+        "name":"Pingtung County",
+        "population":839000
+    },
+    {
+        "id":17,
+        "name":"Yilan County",
+        "population":454300
+    },
+    {
+        "id":18,
+        "name":"Hualien County",
+        "population":333400
+    },
+    {
+        "id":19,
+        "name":"Taitung County",
+        "population":224500
+    },
+    {
+        "id":20,
+        "name":"Penghu County",
+        "population":101800
+    },
+    {
+        "id":21,
+        "name":"Kinmen County",
+        "population":139400
+    },
+    {
+        "id":22,
+        "name":"Lienchiang County",
+        "population":13400
+    }
+]

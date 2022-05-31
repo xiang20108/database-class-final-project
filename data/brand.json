@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name":"CoolerMaster",
+        "remote_url":"https://i.ibb.co/tKWn4Fh/Cooler-Master.png",
+        "local_url":"/img/CoolerMaster.png",
+        "link_url":"/shop/brand/CoolerMaster"
+    },
+    {
+        "id":2,
+        "name":"Corsair",
+        "remote_url":"https://i.ibb.co/HFz2r0b/Corsair.png",
+        "local_url":"/img/brand/Corsair.png",
+        "link_url":"/shop/brand/Corsair"
+    },
+    {
+        "id":3,
+        "name":"Logitech",
+        "remote_url":"https://i.ibb.co/Zf79rph/Logitech.png",
+        "local_url":"/img/brand/Corsair.png",
+        "link_url":"/shop/brand/Logitech"
+    },
+    {
+        "id":4,
+        "name":"Razer",
+        "remote_url":"https://i.ibb.co/ZzT0rZ1/Razer.png",
+        "local_url":"/img/brand/Razer.png",
+        "link_url":"/shop/brand/Razer"
+    },
+    {
+        "id":5,
+        "name":"ROG",
+        "remote_url":"https://i.ibb.co/0ZRVM82/ROG.png",
+        "local_url":"/img/brand/ROG.png",
+        "link_url":"/shop/brand/ROG"
+    }
+]

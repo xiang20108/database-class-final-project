@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "areas",
+  "info": {
+    "name": "area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "population": {
+      "type": "biginteger"
+    },
+    "orders": {
+      "via": "area",
+      "collection": "order"
+    }
+  }
+}

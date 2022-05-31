@@ -1,0 +1,100 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/apiAreas",
+      "handler": "area.apiPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiAreas/add",
+      "handler": "area.apiAddPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiAreas/add",
+      "handler": "area.apiAdd",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiAreas/edit/:id",
+      "handler": "area.apiEditPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiAreas/update",
+      "handler": "area.apiUpdate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiAreas/delete/:id",
+      "handler": "area.apiDelete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/areas",
+      "handler": "area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/areas/count",
+      "handler": "area.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/areas/:id",
+      "handler": "area.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/areas",
+      "handler": "area.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/areas/:id",
+      "handler": "area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/areas/:id",
+      "handler": "area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

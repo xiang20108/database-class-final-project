@@ -1,0 +1,124 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shop/productpage",
+      "handler": "product.productpage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiProducts",
+      "handler": "product.apiPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiProducts/add",
+      "handler": "product.apiAddPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiProducts/add",
+      "handler": "product.apiAdd",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiProducts/edit/:id",
+      "handler": "product.apiEditPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiProducts/updated",
+      "handler": "product.apiUpdate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiProducts/delete/:id",
+      "handler": "product.apiDelete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/products",
+      "handler": "product.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/products/count",
+      "handler": "product.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/products/:id",
+      "handler": "product.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiProducts/add",
+      "handler": "product.apiAdd",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiProducts/update",
+      "handler": "product.apiUpdate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/products",
+      "handler": "product.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/products/:id",
+      "handler": "product.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/products/:id",
+      "handler": "product.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

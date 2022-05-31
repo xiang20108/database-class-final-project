@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"Mouse",
+        "remote_url":"https://i.ibb.co/4FtbsyF/mouse.png",
+        "local_url":"/img/mouse.png",
+        "link_url":"/shop/category/Mouse"
+    },
+    {
+        "id":2,
+        "name":"Keyboard",
+        "remote_url":"https://i.ibb.co/w6WHQfY/keyboard.png",
+        "local_url":"/img/keyboard.png",
+        "link_url":"/shop/category/Keyboard"
+    },
+    {
+        "id":3,
+        "name":"Headset",
+        "remote_url":"https://i.ibb.co/YyFx3XX/headset.png",
+        "local_url":"/img/headset",
+        "link_url":"/shop/category/Headset"
+    }
+]

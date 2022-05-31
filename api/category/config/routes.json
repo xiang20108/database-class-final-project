@@ -1,0 +1,116 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shop",
+      "handler": "category.homepage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shop/category/:cname",
+      "handler": "category.categorypage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiCategories",
+      "handler": "category.apiPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiCategories/add",
+      "handler": "category.apiAddPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiCategories/add",
+      "handler": "category.apiAdd",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiCategories/edit/:id",
+      "handler": "category.apiEditPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiCategories/update",
+      "handler": "category.apiUpdate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiCategories/delete/:id",
+      "handler": "category.apiDelete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/categories",
+      "handler": "category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/categories/count",
+      "handler": "category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/categories/:id",
+      "handler": "category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/categories",
+      "handler": "category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/categories/:id",
+      "handler": "category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/categories/:id",
+      "handler": "category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

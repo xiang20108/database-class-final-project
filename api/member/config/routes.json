@@ -1,0 +1,100 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/apiMembers",
+      "handler": "member.apiPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiMembers/add",
+      "handler": "member.apiAddPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiMembers/add",
+      "handler": "member.apiAdd",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiMembers/edit/:id",
+      "handler": "member.apiEditPage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/apiMembers/update",
+      "handler": "member.apiUpdate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apiMembers/delete/:id",
+      "handler": "member.apiDelete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/members",
+      "handler": "member.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/members/count",
+      "handler": "member.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/members/:id",
+      "handler": "member.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/members",
+      "handler": "member.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/members/:id",
+      "handler": "member.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/members/:id",
+      "handler": "member.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
